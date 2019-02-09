@@ -17,9 +17,9 @@ class NewsReader(object):
 	def __init__(self, sourceMessage, imgPath, subjectMessage, fromMessage, dateMessage, messageBody):
 		self.canvas 			= None
 		self.sourceMessage		= sourceMessage
-		self.img 				= None
+		self.img 			= None
 		self.imgPath 			= imgPath		
-		self.subjectMessage 	= subjectMessage
+		self.subjectMessage 		= subjectMessage
 		self.fromMessage 	 	= fromMessage
 		self.dateMessage 	 	= dateMessage
 		self.messageBody 		= messageBody
